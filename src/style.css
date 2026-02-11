@@ -167,7 +167,7 @@ button:hover {
 
 .header {
   display: flex;
-  height: 87px;
+  height: 86px;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #b8ffec;

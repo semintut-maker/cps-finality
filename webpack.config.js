@@ -8,7 +8,7 @@ module.exports = {
   entry: ['./src/js/index.js'],
   output: {
     filename: './js/bundle.js',
-    publicPath: '/CPS---final/',
+    publicPath: '',
     path: path.resolve(__dirname, 'dist')
   },
   devtool: 'source-map',

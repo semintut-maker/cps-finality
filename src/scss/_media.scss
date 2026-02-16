@@ -243,11 +243,12 @@
     &__wrapper {
       background-color: $bgColorAlt;
       max-width: 320px;
+      height: 100vh;
       box-shadow: 20px 0px 40px #0e185033;
     }
 
     &__footer {
-      margin-top: 200px;
+      margin-top: 370px;
     }
   }
 
@@ -281,6 +282,43 @@
     display: flex;
   }
 }
+
+@media (min-width: 820px) {
+  .burger-menu {
+    background-color: $bgColorBurg;
+    height: 100%;
+
+    &__wrapper {
+      background-color: $bgColorAlt;
+      max-width: 320px;
+      height: 100vh;
+      box-shadow: 20px 0px 40px #0e185033;
+    }
+
+    &__footer {
+      margin-top: 500px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .burger-menu {
+    background-color: $bgColorBurg;
+    height: 100%;
+
+    &__wrapper {
+      background-color: $bgColorAlt;
+      max-width: 320px;
+      height: 100vh;
+      box-shadow: 20px 0px 40px #0e185033;
+    }
+
+    &__footer {
+      margin-top: 700px;
+    }
+  }
+}
+
 @media (min-width: 996px) {
   .brand-slide.swiper-slide:nth-child(n + 7) {
     display: flex;
@@ -304,6 +342,12 @@
 
   .show-all .service-slide.swiper-slide {
     display: flex;
+  }
+
+  .brands__pagination,
+  .services__pagination,
+  .prices__pagination {
+    display: none;
   }
 }
 
